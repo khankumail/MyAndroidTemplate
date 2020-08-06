@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.app.mailbox"
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 8
+        versionName "3.0"
+    }
+    /*
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig getSigningConfig()
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def appName = "Mailbox App"
+                    def outputFile = output.outputFile
+                    if(outputFile!=null && outputFile.name.endsWith('.apk')){
+                        def fileName = appName +" "+ defaultConfig.versionName + ".apk"
+                        output.outputFile = new File((String) outputFile.parent, (String) fileName)
+                    }
+                }
+            }
+        }
+    }*/
+}
+
+/* IMPORTANT :
+ * Be careful when update dependencies, different version library may caused error */
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support:cardview-v7:25.3.1'
+    implementation 'com.android.support:recyclerview-v7:25.3.1'
+    implementation 'com.android.support:design:25.3.1'
+    implementation 'com.android.support:support-v4:25.3.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.balysv:material-ripple:1.0.2'
+}

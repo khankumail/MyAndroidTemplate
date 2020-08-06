@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262929</color>
+    <color name="colorPrimaryDark">#212424</color>
+    <color name="colorPrimaryLight">#2A2E2E</color>
+
+    <color name="colorAccent">#0FD16D</color>
+    <color name="colorAccentDark">#0FC266</color>
+    <color name="colorAccentLight">#0DDE72</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#d9d9d9</color>
+    <color name="grey_bg">#F7F7F7</color>
+    <color name="grey_dark">#262626</color>
+
+    <color name="darkOverlay">#80000000</color>
+    <color name="darkOverlaySoft">#40000000</color>
+    <color name="whiteOverlay">#40FFFFFF</color>
+
+    <!--for random color generator -->
+    <array name="mdcolor_random">
+        <item type="color">#C2185B</item>
+        <item type="color">#7B1FA2</item>
+        <item type="color">#C62828</item>
+        <item type="color">#689F38</item>
+        <item type="color">#558B2F</item>
+        <item type="color">#006064</item>
+        <item type="color">#0D47A1</item>
+        <item type="color">#009688</item>
+        <item type="color">#00695C</item>
+        <item type="color">#D84315</item>
+        <item type="color">#37474F</item>
+        <item type="color">#E65100</item>
+    </array>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="album_cover">
+        <item>@drawable/photo_album_1</item>
+        <item>@drawable/photo_album_2</item>
+        <item>@drawable/photo_album_3</item>
+        <item>@drawable/photo_album_4</item>
+        <item>@drawable/photo_album_5</item>
+
+        <item>@drawable/photo_album_6</item>
+        <item>@drawable/photo_album_7</item>
+        <item>@drawable/photo_album_8</item>
+        <item>@drawable/photo_album_9</item>
+        <item>@drawable/photo_album_10</item>
+    </integer-array>
+
+    <string-array name="song_name">
+        <item>All The Arguments</item>
+        <item>Proud of You</item>
+        <item>Morning Reasons</item>
+        <item>Drowsy Smart Mouth</item>
+        <item>Being Anything Else</item>
+
+        <item>Fist Full Of Mysteries</item>
+        <item>5 Dollar Town</item>
+        <item>Eternal Soul</item>
+        <item>Living is Going Down</item>
+        <item>Deadly Joy</item>
+
+        <item>Screaming Skill</item>
+        <item>Escape Of The Justice</item>
+        <item>Silent Fight</item>
+        <item>Distractions Have No Answers</item>
+        <item>Lead Sm</item>
+
+        <item>Golden Reasons</item>
+        <item>Let Them Go Their Way</item>
+        <item>To Forgive</item>
+        <item>Violent Dream</item>
+        <item>Screaming Patience</item>
+    </string-array>
+
+    <string-array name="album_name">
+        <item>The Mother</item>
+        <item>Not Advance</item>
+        <item>Coming Back</item>
+        <item>Suspicions</item>
+        <item>Desert Of Lost</item>
+
+        <item>Glances</item>
+        <item>Some Doubts</item>
+        <item>Morning</item>
+        <item>Love More Deeply</item>
+        <item>Quite</item>
+    </string-array>
+
+    <string-array name="artist_name">
+        <item>Alain Lipietz</item>
+        <item>C. Wagner</item>
+        <item>Sacks Forcing</item>
+        <item>Ilona</item>
+        <item>Danny Higginbotham</item>
+        <item>Flooring Cramp</item>
+    </string-array>
+
+    <string-array name="artist_brief">
+        <item>2 Albums • 10 Songs</item>
+        <item>1 Album • 1 Song</item>
+        <item>1 Album • 1 Song</item>
+        <item>1 Album • 2 Songs</item>
+        <item>2 Albums • 4 Songs</item>
+        <item>1 Album • 1 Song</item>
+    </string-array>
+
+    <integer-array name="artist_photo">
+        <item>@drawable/photo_artist_1</item>
+        <item>@drawable/photo_artist_2</item>
+        <item>@drawable/photo_artist_3</item>
+        <item>@drawable/photo_artist_4</item>
+        <item>@drawable/photo_artist_5</item>
+        <item>@drawable/photo_artist_5</item>
+    </integer-array>
+
+
+    <string-array name="playlist_name">
+        <item>Accoustic</item>
+        <item>Relaxing</item>
+        <item>Instrumental</item>
+        <item>Song Cover</item>
+    </string-array>
+
+</resources>

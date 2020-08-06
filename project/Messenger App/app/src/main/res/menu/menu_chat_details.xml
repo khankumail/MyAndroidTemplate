@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_video"
+        android:icon="@drawable/ic_menu_video"
+        android:orderInCategory="100"
+        android:title="Action Video"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/ic_menu_call"
+        android:orderInCategory="100"
+        android:title="Action Call"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_menu_info"
+        android:orderInCategory="100"
+        android:title="Action Info"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+    <!--exit notification-->
+    <string name="press_again_exit_app">Press again to exit</string>
+
+    <!--dont edit-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="my_name">John Miller</string>
+
+    <string name="tab_recent">Recent Chat</string>
+    <string name="tab_call">Call</string>
+    <string name="tab_group">Group</string>
+    <string name="tab_friend">Friend</string>
+    <string name="tab_setting">Setting</string>
+
+</resources>
